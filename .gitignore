@@ -7,7 +7,6 @@
 /model_result/*
 /training_log/
 /training_args/
-/rename_full_rearranged/*
 /output_full_rearranged.json
 /rename_full_rearranged.zip
 /ipynbs
