@@ -1,0 +1,51 @@
+{
+    "VI_instructions":[
+    ["In the image <image> provided, can you identify any apparent defects such as {subfolder_string} on this {product}?"],
+    ["Regarding the image <image>, does this {product} exhibit any noticeable issues, for example, {subfolder_string}?"],
+    ["Looking at the image <image>, are there discernible problems like {subfolder_string} present on the {product}?"],
+    ["Upon examining the image <image>, are defects such as {subfolder_string} visible on this {product}?"],
+    ["Can any {subfolder_string}-type anomalies be spotted on the {product} in the image <image>?"],
+    ["In this image <image>, do you see any faults, specifically like {subfolder_string}, on the {product}?"],
+    ["Are imperfections, particularly {subfolder_string}, observable on the {product} in the image <image>?"],
+    ["Does the image <image> reveal any {subfolder_string} or similar flaws on the {product}?"],
+    ["Upon inspecting the image <image>, are there any {subfolder_string} defects noticeable on the {product}?"],
+    ["Can one notice any {subfolder_string}-like issues in the {product} as depicted in the image <image>?"]
+    ],
+    "answers_ng":[
+    ["Yes. The {product} definitely shows {defect}."],
+    ["Yes. A clear indication of {defect} on this {product} suggests it's defective."],
+    ["Yes. Signs of {defect} are evident in the {product}, indicating a problem."],
+    ["Yes. This {product} has {defect}, a clear defect."],
+    ["Yes. Unmistakably, the {product} shows {defect}, pointing to a defect."],
+    ["Yes. {defect} in the {product} is obvious, indicating a significant defect."],
+    ["Yes. Considering the {product}, the presence of {defect} suggests it's not in perfect condition."],
+    ["Yes. {defect} is noticeable on the {product}, indicating it's not as it should be."],
+    ["Yes. With {defect} present, this {product} certainly seems defective."],
+    ["Yes. {defect} on this {product} clearly points to a problem."]
+    ],
+
+    "answers_ok" : [
+    ["No. This {product} seems fine."],
+    ["No. No visible faults like {subfolder_string} on the {product}."],
+    ["No. {product} appears free of issues such as {subfolder_string}."],
+    ["No. No {subfolder_string} faults detected on the {product}."],
+    ["No. After checking, the {product} seems clear of {subfolder_string} issues."],
+    ["No. {product} lacks any visible {subfolder_string} faults, indicating good condition."],
+    ["No. Nothing like {subfolder_string} found on this {product}."],
+    ["No. {product} looks good, no {subfolder_string} defects seen."],
+    ["No. {product} appears non-defective, lacking {subfolder_string} type faults."],
+    ["No. This {product} displays no {subfolder_string} issues, suggesting it's in prime condition."]
+    ],
+    "query_VI_instructions":[
+        ["Considering the context, in the image <image> provided, can you identify any apparent defects such as {subfolder_string} on this {product}?"],
+        ["Given the context, regarding the image <image>, does this {product} exhibit any noticeable issues, for example, {subfolder_string}?"],
+        ["With the context in mind, looking at the image <image>, are there discernible problems like {subfolder_string} present on the {product}?"],
+        ["Reflecting on the context, upon examining the image <image>, are defects such as {subfolder_string} visible on this {product}?"],
+        ["In light of the context, can any {subfolder_string}-type anomalies be spotted on the {product} in the image <image>?"],
+        ["Considering the surrounding context, in this image <image>, do you see any faults, specifically like {subfolder_string}, on the {product}?"],
+        ["Taking into account the context, are imperfections, particularly {subfolder_string}, observable on the {product} in the image <image>?"],
+        ["Given the current context, does the image <image> reveal any {subfolder_string} or similar flaws on the {product}?"],
+        ["In view of the context, upon inspecting the image <image>, are there any {subfolder_string} defects noticeable on the {product}?"],
+        ["Bearing the context in mind, can one notice any {subfolder_string}-like issues in the {product} as depicted in the image <image>?"]
+    ]
+}

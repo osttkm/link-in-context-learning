@@ -1,0 +1,51 @@
+{
+    "VI_instructions":[
+        "Upon examining the image <image>, could you determine if there are any {subfolder_string} defects affecting this {product}?",
+        "In the depiction provided within image <image>, are there noticeable {subfolder_string} anomalies on the {product}?",
+        "Does the image <image> disclose any impairments, specifically {subfolder_string}, afflicting the {product}?",
+        "Is there any evidence in the image <image> suggesting that {subfolder_string} issues mar the {product}?",
+        "Could you assess whether the {product} in image <image> suffers from any {subfolder_string} problems?",
+        "In this visual presentation, image <image>, are faults like {subfolder_string} evident on the {product}?",
+        "Does the portrayal of the {product} in image <image> exhibit any signs of {subfolder_string}?",
+        "Can you identify defects such as {subfolder_string} on the {product} depicted in image <image>?",
+        "Is there a presence of {subfolder_string} or similar defects on the {product} in the provided image <image>?",
+        "Are any {subfolder_string} faults apparent on the {product} shown in image <image>?"
+    ],
+    "answers_ng":[
+        "Yes, this image reveals a clear sign of {defect} on the {product}, indicating a defect.",
+        "Indeed, the {product} exhibits {defect} in image, which confirms it as defective.",
+        "Visible {defect} on the {product} in this image clearly points to a defective condition.",
+        "This {product} is certainly defective, as evidenced by the presence of {defect} in image.",
+        "The {product} in the image displays {defect}, clearly indicating it's not in acceptable condition.",
+        "Yes, the {product} shows unmistakable signs of {defect} in image, marking it as defective.",
+        "Clearly, {defect} is present on this {product} as shown in image, suggesting it is defective.",
+        "This image contains visible evidence of {defect} on the {product}, affirming its defective status.",
+        "Yes, indications of {defect} are evident on the {product} in image, deeming it defective.",
+        "The {product} in image is visibly marred by {defect}, which identifies it as defective."
+    ],
+
+    "answers_ok" : [
+        "No. The image shows the {product} free of any {subfolder_string} faults, indicating it's in excellent condition.",
+        "No, there are no {subfolder_string} issues detected on the {product} in this image, suggesting flawless condition.",
+        "No visible {subfolder_string} defects can be observed on the {product} in the image.",
+        "The {product} appears in prime condition with no {subfolder_string} faults present in the image.",
+        "No, I can confirm that the {product} depicted in image does not exhibit any {subfolder_string}.",
+        "Upon inspection, no {subfolder_string} issues are visible on the {product} within image.",
+        "The {product} shown in image displays a complete absence of {subfolder_string} faults.",
+        "In the image, the {product} is devoid of any {subfolder_string}, which confirms its good condition.",
+        "No faults like {subfolder_string} are discernible on the {product} as shown in this image.",
+        "No, the image reveals that the {product} is clear of any {subfolder_string}, ensuring its good state."
+    ],
+    "query_VI_instructions":[
+        "Considering the context, in the image <image>, could you determine if there are any {subfolder_string} defects affecting this {product}?",
+        "Given the context, in the image <image>, are there noticeable {subfolder_string} anomalies on the {product}?",
+        "With the context in mind, does the image <image> disclose any impairments, specifically {subfolder_string}, afflicting the {product}?",
+        "Reflecting on the context, is there any evidence in the image <image> suggesting that {subfolder_string} issues mar the {product}?",
+        "In the light of the context, could you assess whether the {product} in image <image> suffers from any {subfolder_string} problems?",
+        "Considering the context, in this visual presentation, image <image>, are faults like {subfolder_string} evident on the {product}?",
+        "Given the context, does the portrayal of the {product} in image <image> exhibit any signs of {subfolder_string}?",
+        "With the context in mind, can you identify defects such as {subfolder_string} on the {product} depicted in image <image>?",
+        "Reflecting on the context, is there a presence of {subfolder_string} or similar defects on the {product} in the provided image <image>?",
+        "In the light of the context, are any {subfolder_string} faults apparent on the {product} shown in image <image>?"
+    ]
+}

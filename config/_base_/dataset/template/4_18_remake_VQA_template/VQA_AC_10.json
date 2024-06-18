@@ -1,0 +1,38 @@
+{
+    "question":[
+        "Can you discern any specific defects affecting the {product} depicted in this image?",
+        "In this image, are there any discernible faults with the {product} that you can point out?",
+        "What kinds of defects, if any, are visible on the {product} showcased in this image?",
+        "Upon examining this image, can you identify any flaws that compromise the integrity of the {product}?",
+        "What specific issues can you identify on the {product} present in this image?",
+        "Are any imperfections evident on the {product} displayed in this image?",
+        "Looking at this {product} in the image, can you spot any specific defects?",
+        "Does the {product} pictured in this image exhibit any noticeable flaws?",
+        "What specific problems are evident in the {product} shown in this image?",
+        "In your observation, are there any noticeable defects on the {product} featured in this image?"
+    ],
+    "ng_answer":[
+        "The image portrays the {product} as having {defect}.",
+        "Upon close inspection, {defect} is evident in the {product} shown in this image.",
+        "This image clearly displays the {product} with a {defect}.",
+        "It is apparent from this image that the {product} suffers from {defect}.",
+        "The {product} depicted here exhibits a notable {defect}.",
+        "The defect, {defect}, is clearly visible in the {product} displayed in this image.",
+        "This image highlights a {defect} in the {product} under inspection.",
+        "The {product} in this image is compromised by a visible {defect}.",
+        "Upon reviewing this image, one can observe that the {product} has {defect}.",
+        "This detailed image shows the {product} with a clear indication of {defect}."
+    ],
+    "ok_answer":[
+        "This image presents a {product} that is free from any defects.",
+        "No defects are discernible on the {product} showcased in this image.",
+        "The {product} displayed in this image shows no signs of defects or imperfections.",
+        "Upon detailed inspection, this image reveals no defects in the {product}.",
+        "The {product} depicted in this image appears pristine and without any faults.",
+        "There are no visible issues or defects on the {product} featured in this image.",
+        "A thorough inspection of this image shows that the {product} is without defects.",
+        "The {product} in this image is immaculately presented with no visible defects.",
+        "No defects can be observed on the {product} in this image, indicating flawless quality.",
+        "The image reflects a {product} that maintains a defect-free condition."
+    ]
+}

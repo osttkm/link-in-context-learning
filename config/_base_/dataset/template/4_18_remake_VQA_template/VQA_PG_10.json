@@ -1,0 +1,26 @@
+{
+    "question":[
+        "What type of product is prominently featured in this?",
+        "Could you specify what kind of item is depicted in this?",
+        "What particular product is the focal point in this?",
+        "Which kind of merchandise is clearly visible within this?",
+        "Is there a specific product identifiable in this, and if so, what is it?",
+        "Can you discern the type of product being showcased in this?",
+        "Looking at this, what sort of product is displayed?",
+        "In the context of this, what type of item do you perceive?",
+        "What is the primary product shown in this?",
+        "From observing this, what product would you say is illustrated?"
+    ],
+    "answer":[
+        "The image prominently features a {product}.",
+        "A {product} is the item depicted in this image.",
+        "This image focuses on a {product} as its main subject.",
+        "Clearly visible in this image is a {product}.",
+        "Yes, the product identifiable in this image is a {product}.",
+        "The product showcased in this image is identified as a {product}.",
+        "Displayed in this image is a type of {product}.",
+        "The item perceived in this image is a {product}.",
+        "This image primarily shows a {product}.",
+        "The product illustrated in this image is a {product}."
+        ]
+}

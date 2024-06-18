@@ -1,0 +1,122 @@
+{
+    "question":[
+        "Upon inspecting the image <image> of the {product}, could you identify and describe any defects, providing their precise coordinates [x0,y0,x1,y1] if present?",
+        "Examine the {product} depicted in the attached image <image> closely. Should you observe any defects, please furnish a detailed description along with their exact coordinates [xmin,ymin,xmax,ymax].",
+        "Please scrutinize the {product} shown in this image <image>; report any defects, specifying their locations using coordinates.",
+        "Conduct a comprehensive analysis of the {product} featured in the image <image> and enumerate any defects with their specific coordinates if any are found.",
+        "Critically assess the {product} visible in the photograph <image>. If defects are detected, provide a thorough description including the coordinates [x0,y0,x1,y1].",
+        "Observe the {product} in this image <image> carefully. Are there any visible defects? If yes, delineate each defect with its corresponding coordinates.",
+        "Review the {product} in the supplied image <image>. In the event of any defects, enumerate each along with a detailed location description.",
+        "Evaluate the {product} in this photograph <image>; should you find any defects, detail them including their precise positions and coordinates.",
+        "Inspect the image <image> containing the {product}. Identify any defects and articulate their specific locations.",
+        "Analyse the {product} portrayed in the image <image>. Should any defects be present, please catalog each one with a description and their coordinates."
+    ],
+    "1type_1_defect_answer":[
+        "This {product} presents a <ph_st>{defect}<ph_ed> located precisely at the {position}.",
+        "A distinct <ph_st>{defect}<ph_ed> is visible on the {position} of the {product}.",
+        "Upon inspection, the {product} exhibits a <ph_st>{defect}<ph_ed> at the {position}.",
+        "A single <ph_st>{defect}<ph_ed> has been identified in the {position} area of the {product}.",
+        "The {position} of this {product} reveals a <ph_st>{defect}<ph_ed> clearly evident upon close examination.",
+        "Noticeably, there is a <ph_st>{defect}<ph_ed> at the {position} on the {product}.",
+        "The {product} has a <ph_st>{defect}<ph_ed> manifesting itself in the {position}.",
+        "A single <ph_st>{defect}<ph_ed> marks the {position} of this {product}.",
+        "This {product} is marred by a <ph_st>{defect}<ph_ed> situated at the {position}.",
+        "Located in the {position} of the {product} is a noticeable <ph_st>{defect}<ph_ed>."  
+    ],
+    "1type_2_defect_answer":[
+        "Multiple occurrences of a <ph_st>{defect}<ph_ed> are distributed throughout the {position} area of this {product}.",
+        "This {product} features several identical <ph_st>{defect}<ph_ed> clustered around the {position}.",
+        "A series of <ph_st>{defect}<ph_ed> appear consistently across the {position} of the {product}.",
+        "There are multiple manifestations of the same <ph_st>{defect}<ph_ed> in the {position} region of this {product}.",
+        "This {product} exhibits numerous instances of a <ph_st>{defect}<ph_ed>, all located within the {position}.",
+        "Repeated occurrences of a particular <ph_st>{defect}<ph_ed> can be observed in the {position} area of the {product}.",
+        "The {product} displays several <ph_st>{defect}<ph_ed>, all positioned at the {position}.",
+        "Across the {position} of the {product}, various identical <ph_st>{defect}<ph_ed> are evident.",
+        "Several <ph_st>{defect}<ph_ed> mar the {position} of this {product}, appearing multiple times.",
+        "The {position} of the {product} is compromised by numerous repetitive <ph_st>{defect}<ph_ed>."
+    ],
+    "2type_11_defect_answer":[
+        "{defect1} is found on the {position1} of the {product}, and {defect2} is also observed in the {position2}.",
+        "The {product} exhibits a {defect1} at the {position1} and a {defect2} at the {position2}.",
+        "There is a {defect1} positioned in the {position1}, alongside a {defect2} located in the {position2} of the {product}.",
+        "Located in the {position1} of the {product} is a {defect1}, with another {defect2} found in the {position2}.",
+        "A {defect1} appears at the {position1}, complemented by a {defect2} in the {position2} of the {product}.",
+        "Within the {product}, a {defect1} is noticeable at the {position1} and a {defect2} is visible at the {position2}.",
+        "The {product} features a {defect1} in the {position1} area and a {defect2} in the {position2} area.",
+        "One {defect1} occupies the {position1}, and one {defect2} is identified in the {position2} of the {product}.",
+        "This {product} has a {defect1} at the {position1}, coupled with a {defect2} at the {position2}.",
+        "A single {defect1} can be found at the {position1} of the {product}, and a single {defect2} at the {position2}."
+    ],
+    "2_type_12_defect_answer":[
+        "A {defect1} is located at the {position1} of the {product}, while several {defects2} are clustered in the {position2}.",
+        "The {product} contains a {defect1} in the {position1} and multiple {defects2} in the {position2}.",
+        "There is a {defect1} in the {position1}, juxtaposed with numerous {defects2} in the {position2} of the {product}.",
+        "{defect1} is evident in the {position1}, whereas the {position2} harbors several {defects2}.",
+        "In the {product}, a {defect1} is discernible at the {position1} and multiple {defects2} at the {position2}.",
+        "A single {defect1} marks the {position1} of the {product}, contrasted by numerous {defects2} in the {position2}.",
+        "The {position1} of the {product} hosts a {defect1}, while the {position2} is plagued by multiple {defects2}.",
+        "Featuring a {defect1} in the {position1}, the {product} also has several {defects2} distributed in the {position2}.",
+        "There is a {defect1} present at the {position1}, accompanied by several {defects2} at the {position2} of the {product}.",
+        "One {defect1} occupies the {position1} of the {product}, with the {position2} teeming with multiple {defects2}."  
+    ],
+    "2_type_22_defect_answer":[
+        "{defects1} are located in the {position1} of the {product}, and {defects2} can be seen in the {position2}.",
+        "The {product} has {defects1} in the {position1} along with {defects2} in the {position2}.",
+        "Multiple {defects1} inhabit the {position1}, while {defects2} occupy the {position2} of the {product}.",
+        "Both {position1} and {position2} of the {product} are affected by {defects1} and {defects2} respectively.",
+        "{defects1} in the {position1} and {defects2} in the {position2} mar the appearance of the {product}.",
+        "The {product} showcases {defects1} at the {position1} and {defects2} at the {position2}, each manifesting multiple times.",
+        "There are groups of {defects1} and {defects2} at the {position1} and {position2} respectively, affecting the {product}.",
+        "Numerous {defects1} are spread across the {position1}, and numerous {defects2} are visible in the {position2}.",
+        "{product} has been compromised by multiple {defects1} in the {position1} and equally numerous {defects2} in the {position2}.",
+        "Clusters of {defects1} at the {position1} and clusters of {defects2} at the {position2} have been identified on the {product}."      
+    ],
+    "3type_111_defect_answer":[
+        "{defect1} is positioned at the {position1}, {defect2} is found in the {position2}, and {defect3} is situated in the {position3} of the {product}.",
+        "The {product} displays a {defect1} in the {position1}, a {defect2} in the {position2}, and a {defect3} in the {position3}.",
+        "A single {defect1} appears at the {position1}, accompanied by a {defect2} at the {position2}, and a {defect3} at the {position3} of the {product}.",
+        "In the {product}, there is a {defect1} located in the {position1}, along with a {defect2} in the {position2}, and a {defect3} in the {position3}.",
+        "Notable defects on the {product} include a {defect1} at the {position1}, a {defect2} at the {position2}, and a {defect3} at the {position3}.",
+        "Upon inspection, a {defect1} is evident in the {position1}, with a {defect2} present in the {position2}, and a {defect3} located in the {position3} of the {product}.",
+        "This {product} features a {defect1} at the {position1}, a {defect2} in the {position2}, and another {defect3} at the {position3}.",
+        "Identified on the {product} are a {defect1} in the {position1}, a {defect2} in the {position2}, and a {defect3} in the {position3}.",
+        "Each defect—the {defect1} at the {position1}, the {defect2} at the {position2}, and the {defect3} at the {position3}—is solitary on this {product}.",
+        "A {defect1} resides at the {position1}, with {defect2} positioned in the {position2}, and {defect3} found at the {position3} of the {product}."      
+    ],
+    "3_type_112_defect_answer":[
+        "{defect1} is noticeable in the {position1} of the {product}, several {defects2} are scattered across the {position2}, and {defect3} is found in the {position3}.",
+        "There is a {defect1} at the {position1}, multiple {defects2} in the {position2}, and a {defect3} located at the {position3} of the {product}.",
+        "The {product} shows a {defect1} in the {position1}, several {defects2} throughout the {position2}, and a {defect3} in the {position3}.",
+        "A solitary {defect1} marks the {position1} of the {product}, with numerous {defects2} visible in the {position2}, alongside a {defect3} in the {position3}.",
+        "Featuring a {defect1} at the {position1}, the {product} also exhibits multiple {defects2} at the {position2}, and a single {defect3} in the {position3}.",
+        "One {defect1} resides in the {position1}, while several {defects2} populate the {position2}, and another {defect3} is at the {position3} of the {product}.",
+        "With a {defect1} in the {position1}, the {product} also harbors multiple {defects2} in the {position2}, complemented by a {defect3} at the {position3}.",
+        "The {position1} of the {product} holds a {defect1}, the {position2} several {defects2}, and the {position3} a {defect3}.",
+        "{defect1} at the {position1}, coupled with multiple {defects2} at the {position2}, and a {defect3} at the {position3} characterize the {product}.",
+        "A single {defect1} is located at the {position1}, contrasted by various {defects2} in the {position2}, and a {defect3} in the {position3} of the {product}."
+    ],
+    "3_type_122_defect_answer":[
+        "Several {defects1} adorn the {position1} of the {product}, a {defect2} is found in the {position2}, and multiple {defects3} are evident in the {position3}.",
+        "There are numerous {defects1} in the {position1}, a {defect2} in the {position2}, and several {defects3} in the {position3} of the {product}.",
+        "The {product} is affected by multiple {defects1} at the {position1}, complemented by a single {defect2} at the {position2}, and numerous {defects3} at the {position3}.",
+        "Multiple instances of {defects1} populate the {position1}, while a {defect2} occupies the {position2}, and various {defects3} crowd the {position3}.",
+        "With several {defects1} marking the {position1}, the {product} also features a {defect2} in the {position2}, and a cluster of {defects3} in the {position3}.",
+        "Numerous {defects1} in the {position1}, alongside a solitary {defect2} in the {position2}, and several {defects3} in the {position3}, describe the condition of the {product}.",
+        "Clusters of {defects1} in the {position1}, a {defect2} at the {position2}, and multiple {defects3} in the {position3} detail the defect landscape of the {product}.",
+        "The {product} presents multiple {defects1} at the {position1}, one {defect2} at the {position2}, and several {defects3} at the {position3}.",
+        "Featuring extensive {defects1} in the {position1}, the {product} also has a {defect2} in the {position2} and multiple {defects3} in the {position3}.",
+        "Multiple {defects1} in the {position1}, a singular {defect2} in the {position2}, and numerous {defects3} in the {position3} are the key issues found on the {product}."
+    ],
+    "no_defect_answer":[
+        "Upon thorough examination, no defects were identified on this {product}.",
+        "This {product} has been inspected and confirmed to have no defects.",
+        "No defects are present in this {product}, as determined by the latest inspection.",
+        "The analysis concluded with no defects found on this {product}.",
+        "After a detailed review, it has been verified that this {product} contains no defects.",
+        "This {product} is in perfect condition with no defects detected.",
+        "No imperfections or defects have been detected in this {product}.",
+        "The inspection results for this {product} show a complete absence of defects.",
+        "This {product} has passed inspection without any defects being noted.",
+        "A comprehensive check reveals that this {product} is devoid of any defects."
+    ]
+}
